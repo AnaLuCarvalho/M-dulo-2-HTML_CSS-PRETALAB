@@ -139,28 +139,31 @@ td {
 }
 
 
-#form {
-    width: 50%;
-    margin: 0 auto;
-    padding: 20px;
-    border-radius: 30px;
-    }
+    #form {
+        width: 50%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #aebfeb;
+        border-radius: 30px;
+        }
 
 
-label {
-    width: 100%;
-    margin-bottom: 90px; 
-    margin-top: 20px;
-    }
+    label {
+        width: 100%;
+        margin-bottom: 90px; 
+        margin-top: 20px;
+        
+        }
 
-input[type="text"],
-input[type="email"],
-textarea {
-    width: 95%;
-    padding: 14px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 95%;
+        padding: 14px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        
 }
 
 .container{

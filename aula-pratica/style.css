@@ -163,20 +163,24 @@ textarea {
     border-radius: 3px;
 }
 
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-
-button[type="submit"] {
-    padding: 10px 60px;
+#botaoenviar {
+    padding: 10px 100px;
     background-color: #5c6064;
     color: #fff;
-    border:#5c6064;
-    border-radius: 9px;    
+    border: 1px solid #5c6064; 
+    border-radius: 9px;
     }
 
 
-button[type="submit"]:hover {
-    background-color: #0056b3;}
-
+#botaoenviar:hover { 
+    background-color: #0056b3;
+}
 
 .footer {
     width: 100%;
